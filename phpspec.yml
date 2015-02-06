@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: MealJournal
+        psr4_prefix: MealJournal
+        src_path: app
