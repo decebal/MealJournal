@@ -145,6 +145,11 @@ return [
 		'MealJournal\Providers\EventServiceProvider',
 		'MealJournal\Providers\RouteServiceProvider',
 
+        /*
+         * Vendor Custom Providers
+         */
+        'Laracasts\Utilities\JavaScript\JavascriptServiceProvider',
+
 	],
 
 	/*
