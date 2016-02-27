@@ -10,13 +10,13 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-Route::group(['prefix' => 'api/v1'], function(){
+Route::group(['prefix' => 'api/v1'], function () {
     Route::get('/', 'WelcomeController@index');
 
     Route::get('home', 'HomeController@index');
 
     Route::controllers([
-        'auth' => 'Auth\AuthController',
+        'auth'     => 'Auth\AuthController',
         'password' => 'Auth\PasswordController',
     ]);
 });

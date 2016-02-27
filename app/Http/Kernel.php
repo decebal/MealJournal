@@ -1,10 +1,11 @@
-<?php namespace MealJournal\Http;
+<?php
+
+namespace MealJournal\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
 class Kernel extends HttpKernel
 {
-
     /**
      * The application's global HTTP middleware stack.
      *
@@ -25,9 +26,8 @@ class Kernel extends HttpKernel
      * @var array
      */
     protected $routeMiddleware = [
-        'auth' => 'MealJournal\Http\Middleware\Authenticate',
+        'auth'       => 'MealJournal\Http\Middleware\Authenticate',
         'auth.basic' => 'Illuminate\Auth\Middleware\AuthenticateWithBasicAuth',
-        'guest' => 'MealJournal\Http\Middleware\RedirectIfAuthenticated',
+        'guest'      => 'MealJournal\Http\Middleware\RedirectIfAuthenticated',
     ];
-
 }

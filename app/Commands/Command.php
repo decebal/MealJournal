@@ -1,8 +1,8 @@
-<?php namespace MealJournal\Commands;
+<?php
+
+namespace MealJournal\Commands;
 
 abstract class Command
 {
-
     //
-
 }
