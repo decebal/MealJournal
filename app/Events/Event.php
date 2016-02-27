@@ -1,8 +1,8 @@
-<?php namespace MealJournal\Events;
+<?php
+
+namespace MealJournal\Events;
 
 abstract class Event
 {
-
     //
-
 }

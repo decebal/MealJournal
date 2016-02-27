@@ -1,10 +1,11 @@
-<?php namespace MealJournal\Providers;
+<?php
+
+namespace MealJournal\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
 {
-
     /**
      * Bootstrap any application services.
      *
@@ -31,5 +32,4 @@ class AppServiceProvider extends ServiceProvider
             'MealJournal\Services\Registrar'
         );
     }
-
 }
